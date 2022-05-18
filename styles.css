@@ -60,16 +60,14 @@ a {
 
 .website-info h1 {
     font-size: 48px;
-    font-style: #F9FAF8;
-    color: white;
+    color: #F9FAF8;
     margin: 0%;
 }
 
 .website-info p,
 a {
-    color: white;
+    color: #e5e7eb;
     font-size: 18px;
-    font-style: #E5E7EB;
 }
 
 .website-info p { 
@@ -83,5 +81,53 @@ a {
     border-radius: 12px;
     font-size: 16px;
     padding: 8px;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    flex-basis: 200px;
+}
+
+.item img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.item p {
+    margin: 0;
+    color: #1F2937;
+    font-size: 14px;
+}
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: normal;
 }
