@@ -102,7 +102,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 25pxpx;
 }
 
 .item {
@@ -122,12 +122,28 @@ a {
     font-size: 14px;
 }
 .quote-container {
+    display: flex;
     background-color: #e5e7eb;
+    justify-content: center;
+    
 }
-
-.quote h1 {
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 825px;
+    text-align: initial;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.top-quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-weight: normal;
+    margin: 0;
+}
+
+.quote p {
+    align-self: flex-end;
+    margin: 0;
+    font-weight: bolder;
 }
